@@ -50,9 +50,65 @@
 .nav-mob-open{
     display: none;
 }
-@media (max-width:768px) {
+
+
+@media (max-width:900px) {
     .navbar{
-        margin: 20px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+        margin: 10px ; /* supposed to be 20px 170px*/
+    
+    
+    }
+    .nav-menu{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 20px;
+        font-size: 15px;
+    }
+    
+    .nav-connect{
+        padding: 5px 10px;
+        
+        border-radius: 50px;
+        font-size: 15px;
+        cursor: pointer;
+        background: linear-gradient(267deg, #da7c25 0.36%, #8923e1 102.06%);
+        transition: 0.5s;
+        
+    
+    }
+    .nav-connect:hover{
+        transform: scale(1.05);
+    }
+    .nav-menu li{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        cursor: pointer;
+    }
+    .nav-menu li img{
+        display: flex;
+        margin: auto;
+    
+    }
+
+    
+    
+    
+
+       
+    
+    
+
+}
+
+@media (max-width:700px) {
+    .navbar{
+        margin: 10px 60px;
 
     }
     .nav-connect{
@@ -61,15 +117,15 @@
     .nav-mob-open{
         display: block;
         position: fixed;
-        right: 30px;
+        right: 100px;
 
     }
     .nav-mob-close{
         display: block;
         position: relative;
-        top: 30px;
-        left: 290px;
-        width: 30px;
+        top: 25px;
+        left: 230px;
+        width: 20px;
     }
     .nav-menu{
         position: fixed;
@@ -78,14 +134,14 @@
         top: 0px;
         gap: 30px;
         background: #1f0016;
-        width: 350px;
+        width: 300px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
         right: -350px;
     }
     .nav-menu li{
-        font-size: 30px;
+        font-size: 20px;
         padding-left: 100px;
         flex-direction: row;
         gap: 20px;
@@ -95,8 +151,7 @@
 }
 
 
-
-@media (max-width:500px) {
+@media (max-width:550px) {
     .navbar{
         margin: 10px 50px;
 
@@ -107,14 +162,14 @@
     .nav-mob-open{
         display: block;
         position: fixed;
-        right: 70px;
+        right: 100px;
 
     }
     .nav-mob-close{
         display: block;
         position: relative;
-        top: 30px;
-        left: 290px;
+        top: 25px;
+        left: 200px;
         width: 20px;
     }
     .nav-menu{
@@ -124,7 +179,7 @@
         top: 0px;
         gap: 30px;
         background: #1f0016;
-        width: 350px;
+        width: 300px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;

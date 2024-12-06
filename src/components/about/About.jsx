@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/profile_img.svg'
+import profile_img from '../../assets/profile2.png'
 
 
 const About = () => {
@@ -13,13 +13,13 @@ const About = () => {
         </div>
         <div className="about-section">
             <div className="about-left">
-                <img src={profile_img} alt="" />
+                <img src={profile_img} alt=""  className='profile'  />
             </div>
             <div className="about-right">
                 <div className="about-para">
-                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, voluptatem.</p>
+                   <p > I am a passionate and self-driven Web Developer with 2+ years of experience designing, developing, and deploying user-centric websites and applications. </p>
 
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ullam.</p>
+                   <p className='parag'>My expertise lies in leveraging modern technologies such as React, Node.js, JavaScript, PHP, and MySQL to build responsive and dynamic web solution</p>
 
 
                 </div>
@@ -28,6 +28,8 @@ const About = () => {
                     <div className="about-skill"><p>React Js</p><hr style={{width:"70%"}}/></div>
                     <div className="about-skill"><p>Javascript</p><hr style={{width:"60%"}}/></div>
                     <div className="about-skill"><p>Next js</p><hr style={{width:"50%"}}/></div>
+                    <div className="about-skill"><p>php</p><hr style={{width:"30%"}}/></div>
+
 
 
 
@@ -38,12 +40,12 @@ const About = () => {
 
        <div className="about-achievements">
         <div className="about-achievement">
-            <h1>10+</h1>
+            <h1>3+</h1>
             <p>YEARS OF EXPERIENCE</p>
         </div>
         <hr/>
         <div className="about-achievement">
-            <h1>90+</h1>
+            <h1>50+</h1>
             <p>PROJECTS COMPLETED</p>
 
         </div>

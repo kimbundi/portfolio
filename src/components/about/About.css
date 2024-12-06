@@ -40,6 +40,9 @@
     font-size: 24px;
     font-weight: 500;
 }
+.parag{
+    color: #3D3D3D;
+}
 .about-skills{
     display: flex;
     flex-direction: column;
@@ -56,6 +59,7 @@
     min-width: 150px;
     font-size: 24px;
     font-weight: 500;
+    
 }
 
 .about-skill hr{
@@ -104,6 +108,11 @@
 .about-achievement:hover{
     transform: scale(1.12);
     transition: 0.5s;
+}
+.profile{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
 }
 @media (max-width:768px) {
     .about{

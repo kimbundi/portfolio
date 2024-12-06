@@ -49,7 +49,7 @@ const Contact = () => {
         <div className="contact-section">
             <div className="contact-left">
                 <h1>Lets talk</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, consectetur.</p>
+                <p>At craftcodedesigners, we specialize in full-stack web development, creating modern, responsive websites tailored to your needs. From front-end design to back-end programming, we ensure your web presence stands out with high-quality, user-friendly solutions</p>
                 <div className="contact-details">
                     <div className="contact-detail">
                              <img src={mail_icon} alt="" />  <p>craftcodedesigners@gmail.com</p>
